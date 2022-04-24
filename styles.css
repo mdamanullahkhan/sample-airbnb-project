@@ -1,0 +1,174 @@
+.container{
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.reviews{
+    text-decoration: underline;
+}
+.location{
+    text-decoration: underline;
+    color: grey;
+}
+.fa-star{
+    color: red;
+}
+.star-black{
+    color: black;
+}
+.grid-container{
+    display: grid;
+    height: 380px;
+    grid-template: repeat(2,1fr) / repeat(4,1fr);
+    gap: 10px;
+    
+}
+.grid-container > div{
+    
+    
+
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.item3{
+    border-top-right-radius: 10px;
+}
+.item5{
+    border-bottom-right-radius: 10px;
+}
+.item1 > img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+.item2 > img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+.item3 > img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+.item4 > img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+.item5 > img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+.heading{
+    font-size: medium;
+    font-weight: 700;
+    line-height: 0.75;
+}
+.subheading{
+    color: gray;
+}
+.para-description{
+    font-weight: 300;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.card{
+    width: 400px;
+    height: 270px;
+    border: solid 1px black;
+    position: fixed;
+    top: 200px;
+    right: 200px;
+
+}
+.ratings{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+table.booking-table{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+table.booking-table{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+table.booking-table tr{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+table.booking-table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.check-available{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: crimson;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/* .aParent > div{
+    float:left;
+    clear: none;
+} */
+.description{
+    width: 60%;
+    height: auto;
+    font-size: large;
+}
+a{
+    color: black;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.sleeping-room{
+    width: 300px;
+    height: 200px;
+    border: 1px black solid;
+    border-radius: 8px;
+}
+.sleeping-room > img{
+    width:300px;
+    height: 200px;
+}
+table.offers{
+    width: 800px;
+}
+table.offers tr, table.offers td{
+    padding-top: 15px;
+}
+.not-offers{
+    text-decoration:line-through;
+}
+.anemities{
+    margin-top: 20px;
+    width: 210px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 8px;
+    
+}
